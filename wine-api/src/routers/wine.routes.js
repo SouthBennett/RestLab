@@ -16,4 +16,7 @@ router.get("/wines", wineController.getAllWines);
 // Get wine by id
 router.get("/wines/:id", wineController.getWineById);
 
+// Create wine
+router.post("/wines", wineController.createWine);
+
 export default router;
