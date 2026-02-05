@@ -19,4 +19,10 @@ router.get("/wines/:id", wineController.getWineById);
 // Create wine
 router.post("/wines", wineController.createWine);
 
+// Update 
+router.put("/wines/:id", wineController.updateWine);
+
+// Delete
+router.delete("/wines/:id", wineController.deletWine);
+
 export default router;
